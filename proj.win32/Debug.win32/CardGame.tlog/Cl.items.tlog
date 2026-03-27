@@ -1,0 +1,12 @@
+D:\CocosProjects\CardGame\Classes\AppDelegate.cpp;D:\CocosProjects\CardGame\proj.win32\Debug.win32\AppDelegate.obj
+D:\CocosProjects\CardGame\Classes\configs\loaders\LevelConfigLoader.cpp;D:\CocosProjects\CardGame\proj.win32\Debug.win32\LevelConfigLoader.obj
+D:\CocosProjects\CardGame\Classes\controllers\GameController.cpp;D:\CocosProjects\CardGame\proj.win32\Debug.win32\GameController.obj
+D:\CocosProjects\CardGame\Classes\managers\UndoManager.cpp;D:\CocosProjects\CardGame\proj.win32\Debug.win32\UndoManager.obj
+D:\CocosProjects\CardGame\Classes\models\CardModel.cpp;D:\CocosProjects\CardGame\proj.win32\Debug.win32\CardModel.obj
+D:\CocosProjects\CardGame\Classes\models\GameModel.cpp;D:\CocosProjects\CardGame\proj.win32\Debug.win32\GameModel.obj
+D:\CocosProjects\CardGame\Classes\models\UndoModel.cpp;D:\CocosProjects\CardGame\proj.win32\Debug.win32\UndoModel.obj
+D:\CocosProjects\CardGame\Classes\utils\AnimationUtils.cpp;D:\CocosProjects\CardGame\proj.win32\Debug.win32\AnimationUtils.obj
+D:\CocosProjects\CardGame\Classes\utils\JsonUtils.cpp;D:\CocosProjects\CardGame\proj.win32\Debug.win32\JsonUtils.obj
+D:\CocosProjects\CardGame\Classes\views\CardView.cpp;D:\CocosProjects\CardGame\proj.win32\Debug.win32\CardView.obj
+D:\CocosProjects\CardGame\Classes\views\GameView.cpp;D:\CocosProjects\CardGame\proj.win32\Debug.win32\GameView.obj
+D:\CocosProjects\CardGame\proj.win32\main.cpp;D:\CocosProjects\CardGame\proj.win32\Debug.win32\main.obj

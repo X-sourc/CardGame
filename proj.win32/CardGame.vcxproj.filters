@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\configs\loaders\LevelConfigLoader.cpp" />
+    <ClCompile Include="..\Classes\controllers\GameController.cpp" />
+    <ClCompile Include="..\Classes\managers\UndoManager.cpp" />
+    <ClCompile Include="..\Classes\models\CardModel.cpp" />
+    <ClCompile Include="..\Classes\models\UndoModel.cpp" />
+    <ClCompile Include="..\Classes\utils\AnimationUtils.cpp" />
+    <ClCompile Include="..\Classes\utils\JsonUtils.cpp" />
+    <ClCompile Include="..\Classes\views\CardView.cpp" />
+    <ClCompile Include="..\Classes\views\GameView.cpp" />
+    <ClCompile Include="..\Classes\models\GameModel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\configs\loaders\LevelConfigLoader.h" />
+    <ClInclude Include="..\Classes\configs\models\LevelConfig.h" />
+    <ClInclude Include="..\Classes\controllers\GameController.h" />
+    <ClInclude Include="..\Classes\managers\UndoManager.h" />
+    <ClInclude Include="..\Classes\models\CardModel.h" />
+    <ClInclude Include="..\Classes\models\GameModel.h" />
+    <ClInclude Include="..\Classes\models\UndoModel.h" />
+    <ClInclude Include="..\Classes\utils\AnimationUtils.h" />
+    <ClInclude Include="..\Classes\utils\CardEnum.h" />
+    <ClInclude Include="..\Classes\utils\JsonUtils.h" />
+    <ClInclude Include="..\Classes\views\CardView.h" />
+    <ClInclude Include="..\Classes\views\GameView.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\cards\.DS_Store">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\cards\big_black_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_black_3.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_black_4.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_black_5.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_black_6.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_black_7.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_black_8.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_black_9.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_black_10.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_black_A.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_black_J.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_black_K.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_black_Q.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_red_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_red_3.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_red_4.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_red_5.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_red_6.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_red_7.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_red_8.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_red_9.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_red_10.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_red_A.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_red_J.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_red_K.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\big_red_Q.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\card_general.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\club.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\diamond.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\heart.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_black_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_black_3.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_black_4.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_black_5.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_black_6.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_black_7.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_black_8.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_black_9.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_black_10.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_black_A.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_black_J.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_black_K.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_black_Q.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_red_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_red_3.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_red_4.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_red_5.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_red_6.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_red_7.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_red_8.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_red_9.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_red_10.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_red_A.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_red_J.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_red_K.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\small_red_Q.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\cards\spade.png">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

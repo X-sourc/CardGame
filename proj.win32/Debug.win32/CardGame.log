@@ -1,0 +1,8 @@
+﻿D:\Visual Studio Community游戏开发C++产品\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2189,5): warning MSB9008: 引用的项目 ..\cocos2d\external\Box2D\proj.win32\libbox2d.vcxproj 不存在。
+  GameView.cpp
+D:\CocosProjects\CardGame\Classes\views\GameView.cpp(35,5): warning C4566: 由通用字符名称“\u2705”表示的字符不能在当前代码页(936)中表示出来
+D:\CocosProjects\CardGame\Classes\views\GameView.cpp(59,5): warning C4566: 由通用字符名称“\u2705”表示的字符不能在当前代码页(936)中表示出来
+D:\CocosProjects\CardGame\Classes\views\GameView.cpp(127,5): warning C4566: 由通用字符名称“\u2705”表示的字符不能在当前代码页(936)中表示出来
+  CardGame.vcxproj -> D:\CocosProjects\CardGame\proj.win32\Debug.win32\CardGame.exe
+  正在执行自定义生成步骤
+  复制了 0 个文件
